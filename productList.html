@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/css/reset.css">
+  <!-- <link rel="stylesheet" href="./plugins/jq-ui/jquery-ui.min.css"> -->
+  <!-- custom select -->
+  <link rel="stylesheet" href="./plugins/custom-select/nice-select.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.css">
+  <link rel="stylesheet" href="./styles/css/fonts.css">
+  <link rel="stylesheet" href="./styles/css/index.css">
+  <link rel="stylesheet" href="./styles/css/media.css">
+  <!-- icon font -->
+  <link rel="stylesheet" href="./styles/css/style.css">
+
+
+</head>
+
+<body>
+
+  <div class="popups">
+    <div class="popup-brands">
+      <!-- heading -->
+      <div class="popup-brands__headRow">
+        <div class="popup-brands__headWrap">
+          <a href="javascript://" class="popup-brands__back" id="brand-filter-hide">
+            <span class="icon-chevron-drop"></span>
+            Вернуться в каталог
+          </a>
+
+          <select name="popup-brands" id="popup-brands" class="popup-brands__select">
+            <option value="1"><a href="#truck-wheels">Легковые шины</a></option>
+            <option value="1"><a href="#car-wheels">Грузовые шины</a></option>
+          </select>
+        </div>
+      </div>
+
+      <div class="popup-brands__tabBlock" id="truck-wheels">
+        <ul class="popup-brands__tabHeadRow">
+          <li><a href="#top-brands" class="popup-brands__headItem">Топовые бренды</a></li>
+          <li><a href="#other-brands" class="popup-brands__headItem">Зарубежные бренды</a></li>
+          <li><a href="#self-brands" class="popup-brands__headItem">Отчественные бренды</a></li>
+          <li><a href="#china-brands" class="popup-brands__headItem">Китайские бренды</a></li>
+        </ul>
+
+        <div class="popup-brands__tab" id="top-brands">
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="top-brands-check-1" id="top-brands-check-1">
+            <label for="top-brands-check-1">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="top-brands-check-2" id="top-brands-check-2">
+            <label for="top-brands-check-2">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="top-brands-check-3" id="top-brands-check-3">
+            <label for="top-brands-check-3">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="top-brands-check-4" id="top-brands-check-4">
+            <label for="top-brands-check-4">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+        </div>
+
+        <div class="popup-brands__tab" id="other-brands">
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="tother-brands-check-1" id="tother-brands-check-1">
+            <label for="tother-brands-check-1">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="tother-brands-check-2" id="tother-brands-check-2">
+            <label for="tother-brands-check-2">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="tother-brands-check-3" id="tother-brands-check-3">
+            <label for="tother-brands-check-3">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="tother-brands-check-4" id="tother-brands-check-4">
+            <label for="tother-brands-check-4">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+        </div>
+
+        <div class="popup-brands__tab" id="self-brands">
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="self-brands-check-1" id="self-brands-check-1">
+            <label for="self-brands-check-1">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="self-brands-check-2" id="self-brands-check-2">
+            <label for="self-brands-check-2">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="self-brands-check-3" id="self-brands-check-3">
+            <label for="self-brands-check-3">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="self-brands-check-4" id="self-brands-check-4">
+            <label for="self-brands-check-4">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+        </div>
+
+        <div class="popup-brands__tab" id="china-brands">
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="china-brands-check-1" id="china-brands-check-1">
+            <label for="china-brands-check-1">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="china-brands-check-2" id="china-brands-check-2">
+            <label for="china-brands-check-2">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="china-brands-check-3" id="china-brands-check-3">
+            <label for="china-brands-check-3">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+          <!-- check -->
+          <div class="checkRow popup-brands__checkRow">
+            <input type="checkbox" name="china-brands-check-4" id="china-brands-check-4">
+            <label for="china-brands-check-4">Sagitar</label>
+            <span class="icon-check"></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="content">
+    <div class="wrap content__wrap">
+      <div class="brandSidebar">
+        <span class="brandSidebar__heading">Фильтр брендов</span>
+        <a href="javascript://" class="btn brandSidebar__btn brand-filter-btn">СМОТРЕТЬ ВСЁ</a>
+
+        <div class="brandSidebar__search">
+          <input type="text" placeholder="Поиск по бренду...">
+          <span class="icon-search"></span>
+        </div>
+
+        <div class="brandSidebar__list">
+          <div class="checkRow brandSlider__checkRow">
+            <input type="checkbox" name="brand-check-1" id="brand-check-1">
+            <label for="brand-check-1">Sagitar</label>
+            <span class="icon-check"></span>
+            <span>21</span>
+          </div>
+
+          <div class="checkRow brandSlider__checkRow">
+            <input type="checkbox" name="brand-check-2" id="brand-check-2">
+            <label for="brand-check-2">Sagitar</label>
+            <span class="icon-check"></span>
+            <span>21</span>
+          </div>
+
+          <div class="checkRow brandSlider__checkRow">
+            <input type="checkbox" name="brand-check-3" id="brand-check-3">
+            <label for="brand-check-3">Sagitar</label>
+            <span class="icon-check"></span>
+            <span>21</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="main">
+        <!-- crumbs -->
+        <div class="crumbs">
+          <a href="javascript://" class="crumbs__link">Главная</a>
+          <span class="crumbs__separator icon-chevron-drop"></span>
+          <span class="crumbs__final">Легковые шины</span>
+        </div>
+
+        <div class="filtering">
+          <div class="filtering__body">
+            <h2 class="title itemList__title">Легковие шины (резина)</h2>
+            <div class="labels">
+              <div class="labels__item">
+                Сordiant
+                <div class="labels__closeIcon"></div>
+              </div>
+            </div>
+
+            <div class="bigFilter">
+              <div class="bigFilter__parameters">
+                <select name="select1" id="select1" class="bigFilter__select">
+                  <option value="1">Ширина</option>
+                  <option value="2">Ширина2</option>
+                  <option value="3">Ширина3</option>
+                </select>
+
+                <select name="select2" id="select2" class="bigFilter__select">
+                  <option value="1">Профиль</option>
+                  <option value="2">Профиль2</option>
+                  <option value="3">Профиль3</option>
+                </select>
+
+                <select name="select3" id="select3" class="bigFilter__select">
+                  <option value="1">Диаметр</option>
+                  <option value="2">Диаметр2</option>
+                  <option value="3">Диаметр3</option>
+                </select>
+
+                <select name="select4" id="select4" class="bigFilter__select">
+                  <option value="1">Сезон</option>
+                  <option value="2">Сезон2</option>
+                  <option value="3">Сезон3</option>
+                </select>
+
+                <select name="select5" id="select5" class="bigFilter__select">
+                  <option value="1">Протектор</option>
+                  <option value="2">Протектор2</option>
+                  <option value="3">Протектор3</option>
+                </select>
+              </div>
+
+              <div class="priceSelect bigFilter__priceSelect">
+                <div class="priceSelect__inputs">
+                  <span class="priceSelect__bold">Цена, грн:</span>
+                  <input type="text">
+                  <span class="priceSelect__text">до</span>
+                  <input type="text">
+                </div>
+
+                <div class="priceSelect__slider"></div>
+              </div>
+
+
+            </div>
+
+            <div class="sortBlock">
+              <span class="sortBlock__heading">Упорядочить по: </span>
+              <div class="radioRow sortBlock__radioRow">
+                <input type="radio" name="radio1" id="radio1">
+                <label for="radio1">Цены: по возрастанию</label>
+              </div>
+
+              <div class="radioRow sortBlock__radioRow">
+                <input type="radio" name="radio1" id="radio2">
+                <label for="radio2">Цены: по возрастанию</label>
+              </div>
+
+              <div class="radioRow sortBlock__radioRow">
+                <input type="radio" name="radio1" id="radio3">
+                <label for="radio3">Цены: по возрастанию</label>
+              </div>
+
+              <div class="radioRow sortBlock__radioRow">
+                <input type="radio" name="radio1" id="radio4">
+                <label for="radio4">Цены: по возрастанию</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="navBlock bigFilter__navBlock">
+            <div class="navBlock__icons">
+              <a href="javascript://" class="navBlock__iconItem">
+                <span class="icon-avtopoisk"></span>
+                <p>Автоподбор</p>
+              </a>
+
+              <a href="javascript://" class="navBlock__iconItem">
+                <span class="icon-calculate"></span>
+                <p>Калькулятор</p>
+              </a>
+            </div>
+
+            <div class="navBlock__buttons">
+              <a href="javascript://" class="btn navBlock__brandBtn brand-filter-btn">бренды</a>
+              <a href="javascript://" class="btn navBlock__btn">ПОДОБРАТЬ</a>
+              <a href="javascript://" class="navBlock__link">Сбросить</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="mobileNavigation">
+          <div class="mobileNavigation__top">
+            <h2 class="title mobileNavigation__title">Легковые шины</h2>
+            <div class="mobileNavigation__icons">
+              <img src="./img/svg/season-feature.svg" alt="">
+              <img src="./img/svg/season-feature.svg" alt="">
+              <img src="./img/svg/season-feature.svg" alt="">
+              <a href="javascript://"><img src="./img/svg/calculate.svg" alt=""></a>
+            </div>
+          </div>
+
+          <div class="mobileNavigation__buttons">
+            <select class="mobileNavigation__select" name="mobileNavigation__select" id="mobileNavigation__select">
+              <option value="1">Легковые шины</option>
+              <option value="2">Грузовые шины</option>
+            </select>
+
+            <a href="javascript://" class="mobileNavigation__grayBtn">Автоподбор</a>
+
+            <a href="javascript://" class="btn mobileNavigation__filterBtn brand-filter-btn">
+              <img src="./img/svg/filter_alt.svg" alt="">
+              Фильтры
+            </a>
+
+          </div>
+        </div>
+
+        <div class="itemList">
+          <!-- grid -->
+          <div class="itemList__grid">
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+            <!-- card -->
+            <div class="itemCard itemList__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+
+          <div class="itemList__bottom">
+            <a href="javascript://" class="btn itemList__btn">ЕЩЁ ТОВАРЫ</a>
+
+            <div class="pagination itemList__pagination">
+              <a href="javascript://" class="pagination__page">1</a>
+              <a href="javascript://" class="pagination__page">2</a>
+              <a href="javascript://" class="pagination__page">3</a>
+              <a href="javascript://" class="pagination__page">4</a>
+              <a href="javascript://" class="pagination__page">5</a>
+              <span class="pagination__dots">...</span>
+              <a href="javascript://" class="pagination__page">1223</a>
+              <span class="icon-chevron-drop"></span>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <div class="seo">
+      <div class="wrap seo__wrap">
+        <section>
+          <h3>Легковые шины: летние, зимние и внесезонные</h3>
+          <p>
+            Легковые шины в магазине Резина ран это широкий ассортимент, лучшие цены в Украине и быстрая доставка. Выбрать подходящую резину помогает удобный интерфейс и фильтр. С помощью последнего можно подобрать шины для легковых автомобилей под марку машины, диаметр дисков и ширину, а также для определенного сезона – зимние или летние колеса. Кроме того, магазин предоставляет возможность купить всесезонные шины, которые не требуют замены при изменении погодных условий.
+            <br> <br>
+            Резина для легковых авто (как зимняя, так и летняя) является главным критерием безопасности участников движения и пассажиров транспортных средств. Именно поэтому на страницах каталога собраны лучшие модели шин, подходящих для зимы и лета:
+          </p>
+
+          <ul>
+            <li><span>1</span>Созданные по новейшим технологиям;</li>
+            <li><span>2</span>С глубокими протекторами и шипами, что предотвращает скольжение;</li>
+            <li><span>3</span>Из прочной резины, способной выдержать как удары, так и резкие перепады температур.</li>
+          </ul>
+
+          <p>В наличии как специализированные шины легковые летние и зимние, так всесезонные модели, призванные облегчить жизнь водителей долгим сроком службы, и разработанные специально для Украины.</p>
+        </section>
+
+        <section>
+          <h3>Как выбрать легковые шины</h3>
+
+          <p>Чтобы действительно выгодно купить летние или зимние шины для легковых авто доверьтесь менеджерам магазина Резина ран. Они помогут:</p>
+
+          <ul>
+            <li><span>1</span>Узнать необходимый размер, если вы не в курсе как это сделать;</li>
+            <li><span>2</span>Определиться с производителем, ведь в наличии множество брендов, от Белшины до Grip;</li>
+            <li><span>3</span>Купить шины, не выходя из дома, и выбрать удобный способ оплаты;</li>
+            <li><span>4</span>Оформить доставку в Харьков, Днепр или Одессу, на склад транспортной компании или курьером по указанному адресу.</li>
+          </ul>
+
+          <p>
+            К вопросу подбора резины для легковых автомобилей стоит подойти максимально ответственно, а без знания нюансов шин от разных производителей сделать это невозможно. Именно поэтому в Резина ран работают специалисты, которые в состоянии объяснить, чем шины Snow отличаются от Taurus, для каких дорог лучше купить Cooper, а для каких больше подойдет Wheel. А также разъяснят, для каких марок легковых авто подойдет резина Росава, а каким нужно рассмотреть более дорогие варианты – Artmotion, Racing, Proxes или Evo.
+          </p>
+        </section>
+
+        <section>
+          <h3>Как выбрать легковые шины</h3>
+
+          <p>Шины автомобильные легковые купить в Украине просто, ведь с магазином Резина ран на этой уйдет всего несколько минут, а для консультации можно выбрать любой удобный способ:</p>
+
+          <ul>
+            <li><span>1</span>Форму на сайте;</li>
+            <li><span>2</span>Телефон;</li>
+            <li><span>3</span>Социальные сети.</li>
+          </ul>
+
+          <p>Связаться с менеджером для покупки шин в Харькове, Днепре, Одессе или отправки резины для легковых авто в любой город Украины можно ежедневно с 9 до 21 часов, а сам магазин работает круглосуточно.</p>
+        </section>
+      </div>
+    </div>
+
+    <div class="brandList">
+      <div class="wrap brandList__wrap">
+        <h2 class="title brandList__title">Популярные бренды шин</h2>
+
+        <div class="brandList__grid">
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand1.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand2.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand3.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand4.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand5.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand6.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand7.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand8.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand9.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand10.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand11.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand12.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand13.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand14.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand15.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand16.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand17.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand18.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand19.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand20.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand21.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand22.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand23.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand24.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand25.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand26.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand27.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./plugins/jq-ui/jquery-ui.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/custom-select/jquery.nice-select.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,2785 @@
+<!-- 
+  ### TODO: 
+  ### добавить в иконочный шрифт иконки для лайка и дизлайка
+  ### добавить лейбл над ценой в мобильной версии (в табах) 
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- styles -->
+  <link rel="stylesheet" href="./styles/css/reset.css">
+  <!-- <link rel="stylesheet" href="./plugins/jq-ui/jquery-ui.min.css"> -->
+  <!-- custom select -->
+  <link rel="stylesheet" href="./plugins/custom-select/nice-select.css">
+  <link rel="stylesheet" href="./plugins/slick/slick.css">
+  <link rel="stylesheet" href="./styles/css/fonts.css">
+  <link rel="stylesheet" href="./styles/css/index.css">
+  <link rel="stylesheet" href="./styles/css/media.css">
+  <!-- icon font -->
+  <link rel="stylesheet" href="./styles/css/style.css">
+</head>
+
+<body>
+
+  <div class="content">
+
+    <div class="topContent">
+      <div class="wrap topContent__wrap">
+        <!-- crumbs -->
+        <div class="crumbs modelPage__crumbs">
+          <a href="javascript://" class="crumbs__link">Главная</a>
+          <span class="crumbs__separator icon-chevron-drop"></span>
+          <span class="crumbs__final">Легковые шины</span>
+        </div>
+
+        <h2 class="title topContent__title">
+          Легковие шины (резина)
+        </h2>
+      </div>
+    </div>
+
+    <div class="wrap modelPage__wrap">
+      <div class="brandSidebar modelPage__brandSidebar">
+        <a href="javascipt://" class="brandSidebar__smallLink">ФИЛЬТР</a>
+
+        <h3 class="brandSidebar__smallHeading">Все модели данного <br> бренда</h3>
+        <div class="brandSidebar__body">
+          <!-- sun -->
+          <div class="brandSidebar__block">
+            <a href="javascript://" class="brandSidebar__bigLink">Летние Barum</a>
+
+            <div class="brandSidebar__list">
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+            </div>
+          </div>
+          <!-- winter -->
+          <div class="brandSidebar__block">
+            <a href="javascript://" class="brandSidebar__bigLink">Зимние Barum</a>
+
+            <div class="brandSidebar__list">
+              <div class="brandSidebar__typeItem">
+                <span class="icon-winter"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-winter"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-winter"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-winter"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+            </div>
+          </div>
+          <!-- all season -->
+          <div class="brandSidebar__block">
+            <a href="javascript://" class="brandSidebar__bigLink">Всесезонные Barum</a>
+
+            <div class="brandSidebar__list">
+              <div class="brandSidebar__typeItem">
+                <span class="icon-demiseason"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-demiseason"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-demiseason"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-demiseason"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+            </div>
+          </div>
+          <!-- weight -->
+          <div class="brandSidebar__block">
+            <a href="javascript://" class="brandSidebar__bigLink">Грузовые модели Barum</a>
+
+            <div class="brandSidebar__list">
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+
+              <div class="brandSidebar__typeItem">
+                <span class="icon-sun"></span>
+                <a href="javascript://">Bravuris 3HM</a>
+                <span class="brandSidebar__grayLabel">21</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="javascript://" class="brandSidebar__moreLink">ПОСМОТРЕТЬ ВСЕ МОДЕЛИ</a>
+        </div>
+      </div>
+
+      <div class="main modelPage__main">
+
+        <h3 class="modelPage__heading">Barum POLARIS 5</h3>
+        <!-- model page main content -->
+        <div class="modelPageMain">
+          <div class="modelPageMain__imageBlock">
+            <div class="labels modelPageMain__labels">
+              <img src="./img/svg/winter-feature.svg" alt="">
+              <img src="./img/svg/transport-feature.svg" alt="">
+              <img src="./img/svg/garanty-feature.svg" alt="">
+            </div>
+
+            <div class="ratingBlock modelPageMain__ratingBlock">
+              <div class="stars ratingBlock__stars">
+                <span class="icon-star-solid stars__item stars__item--selected"></span>
+                <span class="icon-star-solid stars__item stars__item--selected"></span>
+                <span class="icon-star-solid stars__item stars__item--selected"></span>
+                <span class="icon-star-solid stars__item stars__item--selected"></span>
+                <span class="icon-star-solid stars__item"></span>
+              </div>
+
+              <span class="ratingBlock__label">13 отзывов</span>
+
+              <a href="javascript://" class="ratingBlock__link">Оставить отзыв</a>
+            </div>
+
+            <img class="modelPageMain__img" src="./img/item-img.jpg" alt="">
+          </div>
+
+          <div class="modelPageMain__infoBlock">
+            <div class="modelPageMain__topInfo">
+              <div class="modelPageMain__split">
+                <div class="modelPageMain__priceBlock">
+                  <div class="iconHeading modelPageMain__iconHeading">
+                    <span class="icon-tag"></span>
+                    Цена
+                  </div>
+
+                  <span class="modelPageMain__orangePrice">от <b>3040 грн</b></span>
+                  <span class="modelPageMain__orangePrice">до <b>7560 грн</b></span>
+
+                  <div class="oneClickForm modelPageMain__oneClickForm">
+                    <input type="text" placeholder="+3 8 (_ _) _ _ _  _ _  _ _">
+                    <a href="javascript://">Заказать в 1 клик</a>
+                  </div>
+
+                  <a href="javascript://" class="btn modelPageMain__btn">Выбрать размер</a>
+                </div>
+
+                <div class="modelPageMain__labelRow">
+                  <div class="checkLabel checkLabel--green modelPageMain__checkLabel">
+                    <span class="icon-check"></span>
+                    В наличии
+                  </div>
+
+                  <div class="checkLabel modelPageMain__checkLabel">
+                    <span class="icon-check"></span>
+                    В наличии
+                  </div>
+                </div>
+
+                <div
+                  class="bottomBlock modelPageMain__bottomBlock bottomBlock--specs modelPageMain__bottomBlock--specsMobile">
+                  <h3 class="bottomBlock__heading">Характеристики</h3>
+                  <div class="bottomBlock__body">
+                    <div class="bottomBlock__listBlock">
+                      <ul>
+                        <li>Бренд: <b>Barum</b></li>
+                        <li>Модель: <b>Polaris 5</b></li>
+                        <li>Сезон: <b>Зимняя</b></li>
+                        <li>Тип транспорта: <b>Легковая</b></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <a href="javascript://" class="garantyBtn modelPageMain__garantyBtn">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                  100 % гарантия
+                </a>
+              </div>
+
+              <div class="modelPageMain__right">
+                <div class="modelPageMain__listBlock">
+                  <!-- info list -->
+                  <div class="infoList modelPageMain__infoList">
+                    <div class="iconHeading infoList__iconHeading">
+                      <span class="icon-tag"></span>
+                      <a href="javascript://">Оплата</a>
+                    </div>
+
+                    <ul>
+                      <li>
+                        <span>1</span>
+                        При получении
+                      </li>
+
+                      <li>
+                        <span>2</span>
+                        Visa / Mastercard
+                      </li>
+
+                      <li>
+                        <span>3</span>
+                        Безналичная
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- info list -->
+                  <div class="infoList modelPageMain__infoList">
+                    <div class="iconHeading infoList__iconHeading">
+                      <span class="icon-tag"></span>
+                      <a href="javascript://">Доставка</a>
+                    </div>
+
+                    <ul>
+                      <li>
+                        <span>1</span>
+                        Новая Почта
+                      </li>
+
+                      <li>
+                        <span>2</span>
+                        Деливери
+                      </li>
+
+                      <li>
+                        <span>3</span>
+                        Самовывоз
+                      </li>
+                    </ul>
+                  </div>
+
+                </div>
+
+                <a href="javascript://" class="modelPageMain__garantyLink">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                  <span>100 % гарантия обмена / возврата</span>
+                </a>
+
+                <ul class="modelPageMain__text">
+                  <li>Цены на сайте указаны за единицу товара при покупке комплекта из 4 шин или 4 дисков;</li>
+                  <li>При покупке менее 4 единиц товара, цену и возможность продажи уточняйте у менеджера;</li>
+                  <li>Страну и год выпуска шин просим уточнять у менеджера;</li>
+                  <li>Возможна частичная предоплата при превышении заказа на сумму 15 000 грн.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="modelPageMain__bottomInfo">
+
+              <div class="bottomBlock modelPageMain__bottomBlock bottomBlock--specs">
+                <h3 class="bottomBlock__heading">Характеристики</h3>
+                <div class="bottomBlock__body">
+                  <div class="bottomBlock__listBlock">
+                    <ul>
+                      <li>Бренд: <b>Barum</b></li>
+                      <li>Модель: <b>Polaris 5</b></li>
+                      <li>Сезон: <b>Зимняя</b></li>
+                    </ul>
+
+                    <ul>
+                      <li>Тип транспорта: <b>Легковая</b></li>
+                      <li>Индекс нагрузки: <b>98</b></li>
+                      <li>Индекс скорости: <b>V</b></li>
+                    </ul>
+                  </div>
+
+                  <a href="javascript://" class="btn bottomBlock__btn">Выбрать размер</a>
+                </div>
+              </div>
+
+              <div class="bottomBlock modelPageMain__bottomBlock bottomBlock--features">
+                <h3 class="bottomBlock__heading">Что мы можем предложить?</h3>
+                <div class="bottomBlock__body">
+
+                  <div class="bottomBlock__featureBlock">
+                    <div class="bottomBlock__featureItem">
+                      <img src="./img/svg/adv-help.svg" alt="">
+                      Помощь в подборе
+                    </div>
+
+                    <div class="bottomBlock__featureItem">
+                      <img src="./img/svg/adv-quality.svg" alt="">
+                      Гарантия качества
+                    </div>
+
+                    <div class="bottomBlock__featureItem">
+                      <img src="./img/svg/adv-lowPrice.svg" alt="">
+                      Низкие цены
+                    </div>
+
+                    <div class="bottomBlock__featureItem">
+                      <img src="./img/svg/adv-amount.svg" alt="">
+                      Более 20 000 шин
+                    </div>
+                  </div>
+
+                  <div class="oneClickForm bottomBlock__oneClickForm">
+                    <input type="text" placeholder="+3 8 (_ _) _ _ _  _ _  _ _">
+                    <a href="javascript://">Заказать в 1 клик</a>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="variantBlock">
+          <h2 class="variantBlock__heading">Варианты размеров шин</h2>
+
+          <div class="variantBlock__body">
+
+            <ul>
+              <li><a href="#variant-tab-1">R13</a></li>
+              <li><a href="#variant-tab-2">R14</a></li>
+              <li><a href="#variant-tab-3">R15</a></li>
+              <li><a href="#variant-tab-4">R16</a></li>
+              <li><a href="#variant-tab-5">R17</a></li>
+            </ul>
+
+            <!-- tab -->
+            <div class="variantBlock__tab" id="variant-tab-1">
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- tab -->
+            <div class="variantBlock__tab" id="variant-tab-2">
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- tab -->
+            <div class="variantBlock__tab" id="variant-tab-3">
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- tab -->
+            <div class="variantBlock__tab" id="variant-tab-4">
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- tab -->
+            <div class="variantBlock__tab" id="variant-tab-5">
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="variantBlock__item">
+                <div class="variantBlock__img">
+                  <img src="./img/item-img.jpg" alt="">
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Типоразмер</span>
+                  <p>225/45 R17</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Индексы</span>
+                  <p>94W</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__label">Артикул</span>
+                  <p>333885</p>
+                </div>
+
+                <div class="variantBlock__col">
+                  <span class="variantBlock__price">3040 грн.</span>
+                </div>
+
+                <div class="variantBlock__buttons">
+                  <a href="javascript://" class="variantBlock__btn">ПОДРОБНЕЕ</a>
+                  <a href="javascript://" class="variantBlock__btn variantBlock__btn--dark">КУПИТЬ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottomTabs modelPage__bottomTabs">
+          <ul>
+            <li><a href="#bottom-tab-1">Отзывы</a></li>
+            <li><a href="#bottom-tab-2">Описание</a></li>
+            <li><a href="#bottom-tab-3">Видеообзор</a></li>
+          </ul>
+
+          <div class="bottomTabs__tab" id="bottom-tab-1">
+            <div class="reviews bottomTabs__reviews">
+
+              <h2 class="reviews__heading">Отзывы о шинах Barum Polaris 5</h2>
+
+              <div class="reviews__body">
+                <!-- item -->
+                <div class="reviewItem reviews__reviewItem">
+                  <!-- name and avatar -->
+                  <div class="reviewItem__nameRow">
+                    <div class="reviewItem__profileImg">
+                      <span class="icon-person"></span>
+                    </div>
+                    <span>Андрей Александрович</span>
+                  </div>
+
+                  <!-- stars -->
+                  <div class="reviewItem__rating">
+                    <span class="icon-star-solid reviewItem__star reviewItem__star--selected"></span>
+                    <span class="icon-star-solid reviewItem__star reviewItem__star--selected"></span>
+                    <span class="icon-star-solid reviewItem__star reviewItem__star--selected"></span>
+                    <span class="icon-star-solid reviewItem__star reviewItem__star--selected"></span>
+                    <span class="icon-star-solid reviewItem__star"></span>
+                  </div>
+
+                  <!-- main text -->
+                  <div class="reviewItem__text">
+                    <p>
+                      Брал жене на матиз, в принципе недорогая и качественная резина, ходит с начала зимы. Достаточно
+                      мягкая и не шумная. Минус один – при сильном морозе (-20) дубеет.
+                    </p>
+
+                    <div class="reviewItem__headingBlock reviewItem--advantages">
+                      <h5 class="reviewItem__heading">Достоинства:</h5>
+                      <p>Хорошая износостойкость, достаточно мягкая и не шумная, цена-качкство.</p>
+                    </div>
+
+                    <div class="reviewItem__headingBlock reviewItem--disadvantages">
+                      <h5 class="reviewItem__heading">Недостатки:</h5>
+                      <p>Не обнаружил,При сильном морозе (-20) дубеет.</p>
+                    </div>
+                  </div>
+
+                  <!-- buttons -->
+                  <div class="reviewItem__bottomRow">
+                    <a href="javascript://" class="reviewItem__replyBtn">
+                      <span class="icon-enter-arrow"></span>
+                      Ответить
+                    </a>
+
+                    <div class="reviewItem__likeRow">
+                      <a href="javascript://" class="reviewItem__likeBtn reviewItem__likeBtn--up">
+                        <img src="./img/svg/thumb_up.svg" alt="">
+                        <span>0</span>
+                      </a>
+
+
+                      <a href="javascript://" class="reviewItem__likeBtn reviewItem__likeBtn--down">
+                        <img src="./img/svg/thumb_down.svg" alt="">
+                        <span>0</span>
+                      </a>
+                    </div>
+                  </div>
+
+
+                  <!-- answers -->
+                  <div class="reviewItem__answerBlock">
+                    <!-- answer item -->
+                    <div class="reviewItem reviewItem--answer">
+                      <!-- name and avatar -->
+                      <div class="reviewItem__nameRow">
+                        <div class="reviewItem__profileImg">
+                          <span class="icon-person"></span>
+                        </div>
+                        <span>Андрей Александрович</span>
+                      </div>
+
+                      <!-- main text -->
+                      <div class="reviewItem__text">
+                        <p>
+                          Брал жене на матиз, в принципе недорогая и качественная резина, ходит с начала зимы.
+                          Достаточно мягкая и не шумная. Минус один – при сильном морозе (-20) дубеет.
+                        </p>
+                      </div>
+
+                      <!-- buttons -->
+                      <div class="reviewItem__bottomRow">
+                        <a href="javascript://" class="reviewItem__replyBtn">
+                          <span class="icon-enter-arrow"></span>
+                          Ответить
+                        </a>
+
+                        <div class="reviewItem__likeRow">
+                          <a href="javascript://" class="reviewItem__likeBtn reviewItem__likeBtn--up">
+                            <img src="./img/svg/thumb_up.svg" alt="">
+                            <span>0</span>
+                          </a>
+
+
+                          <a href="javascript://" class="reviewItem__likeBtn reviewItem__likeBtn--down">
+                            <img src="./img/svg/thumb_down.svg" alt="">
+                            <span>0</span>
+                          </a>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <a href="javascript://" class="bottomTabs__moreBtn">Показать больше отзывов</a>
+
+            </div>
+
+            <div class="reviewForm bottomTabs__reviewForm">
+              <h2 class="reviewForm__heading">
+                Хотите оставить отзыв о товаре?
+              </h2>
+
+              <form class="reviewForm__ratingBlock">
+                <span class="reviewForm__smallHeading">Ваш рейтинг</span>
+
+                <div class="reviewForm__stars">
+                  <span class="icon-star-solid reviewForm__star reviewForm__star--selected"></span>
+                  <span class="icon-star-solid reviewForm__star reviewForm__star--selected"></span>
+                  <span class="icon-star-solid reviewForm__star reviewForm__star--selected"></span>
+                  <span class="icon-star-solid reviewForm__star reviewForm__star--selected"></span>
+                  <span class="icon-star-solid reviewForm__star"></span>
+                </div>
+
+                <div class="reviewForm__inputBlock">
+                  <span class="reviewForm__smallHeading">Ваш отзыв</span>
+                  <textarea></textarea>
+                </div>
+
+                <div class="reviewForm__inputBlock">
+                  <span class="reviewForm__smallHeading">Достоинства</span>
+                  <input type="text">
+                </div>
+
+                <div class="reviewForm__inputBlock">
+                  <span class="reviewForm__smallHeading">Недостатки</span>
+                  <input type="text">
+                </div>
+
+                <a href="javascript://" class="btn reviewForm__btn">НАПИСАТЬ ОТЗЫВ</a>
+              </form>
+            </div>
+          </div>
+
+          <div class="bottomTabs__tab" id="bottom-tab-2">
+            <div class="descriptionBlock modelPage__descriptionBlock">
+              <h2 class="descriptionBlock__heading">Barum POLARIS 5 155/70 R13 75T купить с доставкой по Украине</h2>
+
+              <div class="descriptionBlock__text">
+                <p>
+                  Наш специализированный сайт по продаже автомобильной резины Rezina.run, предлагает приобрести шины
+                  бренда <b>Barum</b>. На странице представлена модель <b>POLARIS 5</b> по лучшей цене. Это <b>зимняя</b> резина,
+                  приспособленная для езды в черте города и за её пределами. Устанавливается на <b>легковой</b> автомобиль.
+                  Модель принадлежит к типу «».
+                  <br> <br>
+                  За шиной закреплен индекс скорости «<b>T</b>», что обязывает водителя следовать инструкции по её
+                  эксплуатации, ведь превышение скоростного режима приведет к снижению сцепления с дорогой. Для модели
+                  был определен индекс нагрузки <b>75</b>, отображающий вес, который выдерживает одна покрышка. При превышении
+                  установленной производителем нагрузки бренд <b>Barum</b> не гарантирует сохранения всех
+                  технико-эксплуатационных характеристик резины, поэтому делайте выбор с четким осознанием своих
+                  потребностей.
+                  <br> <br>
+                  Покрышки Barum этой модели имеют ширину в 155 миллиметров, а профиль — 70. Учитывая диаметр в 13
+                  дюймов, эту серию резины Barum можно устанавливать на многие модели автомобилей. Купите резину сейчас
+                  в Rezina.run по доступной цене.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottomTabs__tab" id="bottom-tab-3">tab 3</div>
+        </div>
+
+        <div class="tabSlider modelPage__tabSlider">
+          <h2 class="tabSlider__heading">
+            Другие модели шин Barum
+          </h2>
+
+          <div class="tabSlider__body">
+            <ul>
+              <li><a href="#slider-tab-1">Зимние</a></li>
+              <li><a href="#slider-tab-2">Летние</a></li>
+              <li><a href="#slider-tab-3">Всесезонные</a></li>
+            </ul>
+
+            <!-- tab -->
+            <div class="tabSlider__tab" id="slider-tab-1">
+              <div class="tabSlider__tab-body" id="tab-slider-1">
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- tab -->
+            <div class="tabSlider__tab" id="slider-tab-2">
+              <div class="tabSlider__tab-body" id="tab-slider-2">
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- tab -->
+            <div class="tabSlider__tab" id="slider-tab-3">
+              <div class="tabSlider__tab-body" id="tab-slider-3">
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+                <!-- slide -->
+                <div class="itemSlider__item">
+                  <div class="itemCard itemSlider__itemCard">
+                    <div class="itemCard__iconRow">
+                      <div class="itemCard__features">
+                        <img src="./img/svg/season-feature.svg" alt="">
+                        <img src="./img/svg/transport-feature.svg" alt="">
+                        <img src="./img/svg/garanty-feature.svg" alt="">
+                      </div>
+
+                      <div class="itemCard__favoriteIcon">
+                        <span class="icon-star-solid"></span>
+                      </div>
+                    </div>
+
+                    <a href="javascript://" class="itemCard__img">
+                      <img src="./img/itemCard.png" alt="">
+                    </a>
+
+                    <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                    <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                    <div class="itemCard__row">
+                      <b class="itemCard__price">2258 грн</b>
+                      <span class="itemCard__aval">Есть в наличии</span>
+                    </div>
+
+                    <div class="itemCard__row">
+                      <div class="itemCard__rating">
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                        <span class="icon-star-solid itemCard__rate"></span>
+                      </div>
+
+                      <span class="itemCard__reviews">12 отзывов</span>
+                    </div>
+
+                    <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="itemSlider modelPage__itemSlider">
+          <div class="wrap itemSlider__wrap">
+            <h2 class="title itemSlider__title">Похожие модели других брендов</h2>
+
+            <div class="itemSlider__body" id="model-slider-1">
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+              <!-- slide -->
+              <div class="itemSlider__item">
+                <div class="itemCard itemSlider__itemCard">
+                  <div class="itemCard__iconRow">
+                    <div class="itemCard__features">
+                      <img src="./img/svg/season-feature.svg" alt="">
+                      <img src="./img/svg/transport-feature.svg" alt="">
+                      <img src="./img/svg/garanty-feature.svg" alt="">
+                    </div>
+
+                    <div class="itemCard__favoriteIcon">
+                      <span class="icon-star-solid"></span>
+                    </div>
+                  </div>
+
+                  <a href="javascript://" class="itemCard__img">
+                    <img src="./img/itemCard.png" alt="">
+                  </a>
+
+                  <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+                  <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+                  <div class="itemCard__row">
+                    <b class="itemCard__price">2258 грн</b>
+                    <span class="itemCard__aval">Есть в наличии</span>
+                  </div>
+
+                  <div class="itemCard__row">
+                    <div class="itemCard__rating">
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                      <span class="icon-star-solid itemCard__rate"></span>
+                    </div>
+
+                    <span class="itemCard__reviews">12 отзывов</span>
+                  </div>
+
+                  <a href="javascript://" class="btn itemCard__btn">Купить</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="brandList">
+      <div class="wrap brandList__wrap">
+        <h2 class="title brandList__title">Популярные бренды шин</h2>
+
+        <div class="brandList__grid">
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand1.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand2.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand3.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand4.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand5.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand6.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand7.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand8.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand9.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand10.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand11.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand12.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand13.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand14.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand15.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand16.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand17.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand18.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand19.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand20.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand21.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand22.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand23.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand24.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand25.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand26.svg" alt="">
+          </a>
+
+          <a href="javascript://" class="brandList__item">
+            <img src="./img/brands/brand27.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="itemSlider modelPage__itemSlider">
+      <div class="wrap itemSlider__wrap">
+        <h2 class="title itemSlider__title">Новинки</h2>
+
+        <div class="itemSlider__body" id="model-slider-2">
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+          <!-- slide -->
+          <div class="itemSlider__item">
+            <div class="itemCard itemSlider__itemCard">
+              <div class="itemCard__iconRow">
+                <div class="itemCard__features">
+                  <img src="./img/svg/season-feature.svg" alt="">
+                  <img src="./img/svg/transport-feature.svg" alt="">
+                  <img src="./img/svg/garanty-feature.svg" alt="">
+                </div>
+
+                <div class="itemCard__favoriteIcon">
+                  <span class="icon-star-solid"></span>
+                </div>
+              </div>
+
+              <a href="javascript://" class="itemCard__img">
+                <img src="./img/itemCard.png" alt="">
+              </a>
+
+              <span class="itemCard__greyNumber">Номер товара: 261104</span>
+
+              <a href="javascript://" class="itemCard__name">Accelera Iota 255/55 R18 109V XL (261104)</a>
+
+              <div class="itemCard__row">
+                <b class="itemCard__price">2258 грн</b>
+                <span class="itemCard__aval">Есть в наличии</span>
+              </div>
+
+              <div class="itemCard__row">
+                <div class="itemCard__rating">
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate itemCard__rate--active"></span>
+                  <span class="icon-star-solid itemCard__rate"></span>
+                </div>
+
+                <span class="itemCard__reviews">12 отзывов</span>
+              </div>
+
+              <a href="javascript://" class="btn itemCard__btn">Купить</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./plugins/jq-ui/jquery-ui.min.js"></script>
+  <script src="./plugins/slick/slick.min.js"></script>
+  <script src="./plugins/custom-select/jquery.nice-select.min.js"></script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
